@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="Selecione" />
+        android:text="@string/selecione" />
 
     <RadioGroup
         android:id="@+id/opcaoRg"
@@ -23,58 +23,61 @@
             android:layout_width="350dp"
             android:layout_height="63dp"
             android:layout_weight="1"
-            android:text=" Humano VS  Computador"/>
+            android:checked="true"
+            android:text="@string/dois_participantes"/>
 
         <RadioButton
             android:layout_width="350dp"
             android:layout_height="63dp"
             android:layout_weight="1"
-            android:text="Humano VS Computador VS Computador"/>
+            android:text="@string/tres_participantes"/>
 
     </RadioGroup>
 
 
-    <EditText
+    <TextView
         android:id="@+id/rodadasEt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="clip_horizontal"
         android:text="Quantidade de Rodadas"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <CheckBox
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:text="1 Rodada" />
+    <ImageButton
+        android:id="@+id/pedraBt"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/zero"
+        android:text="@string/pedra" />
 
+    <ImageButton
+        android:id="@+id/papelBt"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/five"
+        android:text="@string/papel" />
 
-    <CheckBox
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:text="3 Rodadas" />
+    <ImageButton
+         android:id="@+id/tesouraoBt"
+         android:layout_width="64dp"
+         android:layout_height="64dp"
+         android:layout_weight="1"
+         android:onClick="onClick"
+         android:scaleType="fitCenter"
+         android:src="@mipmap/two"
+         android:text="@string/tesoura" />
 
-    <CheckBox
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:text="5 Rodadas" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pedra"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Papel" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tesoura" />
-
-    
 
 </LinearLayout>
 
 
+</LinearLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PedraPapelTesoura</string>
+    <string name="selecione">Selecione</string>
+    <string name="pedra">Pedra</string>
+    <string name="papel">Papel</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="dois_participantes">Dois Participantes</string>
+    <string name="tres_participantes">Três Participantes</string>
 </resources>
