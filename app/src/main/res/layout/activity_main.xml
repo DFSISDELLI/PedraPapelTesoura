@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="@string/selecione" />
+        android:text="@string/quantidade_de_jogadores" />
 
     <RadioGroup
         android:id="@+id/opcaoRg"
@@ -36,15 +36,48 @@
 
 
     <TextView
-        android:id="@+id/rodadasEt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="clip_horizontal"
-        android:text="Quantidade de Rodadas"/>
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/escolha_quantas_rodadas" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/umCb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/um" />
+
+    <CheckBox
+        android:id="@+id/tresCb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/tres" />
+
+    <CheckBox
+        android:id="@+id/cincoCb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/cinco" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione_sua_jogada" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
 
     <ImageButton
         android:id="@+id/pedraBt"
@@ -78,6 +111,26 @@
 
 
 </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jogada_do_computador" />
+
+    <ImageView
+        android:id="@+id/jogadaComputadorIv"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado" />
+
+    <TextView
+        android:id="@+id/resultadoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

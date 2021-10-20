@@ -6,4 +6,14 @@
     <string name="tesoura">Tesoura</string>
     <string name="dois_participantes">Dois Participantes</string>
     <string name="tres_participantes">Três Participantes</string>
+    <string name="quantidade_de_jogadores">Quantidade de Jogadores</string>
+    <string name="quantidade_de_rodadas">Quantidade de Rodadas</string>
+    <string name="escolha_quantas_rodadas">Escolha Quantas Rodadas</string>
+    <string name="um">um</string>
+    <string name="tres">tres</string>
+    <string name="cinco">cinco</string>
+    <string name="resultado_1">Resultado 1</string>
+    <string name="selecione_sua_jogada">Selecione sua Jogada</string>
+    <string name="jogada_do_computador">Jogada do Computador</string>
+    <string name="resultado">Resultado</string>
 </resources>
